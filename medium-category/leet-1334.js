@@ -1,6 +1,6 @@
 //PROBLEM: Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
-//APPROACH: Using Floyd-Warshall algorithm
+//APPROACH: Using Floyd-Warshall algorithm (an algorithm for finding shortest paths in a directed weighted graph)
 
 //SOLUTION:
 function findTheCity (edges , n , distanceThreshhold) {
