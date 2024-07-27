@@ -29,7 +29,6 @@ function findTheCity (edges , n , distanceThreshhold) {
         dist[from][to] = weight;
         dist[to][from] = weight;
     }
-
     console.log('After updating with given weights: ',dist)
 
     /*
